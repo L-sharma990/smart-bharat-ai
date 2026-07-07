@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ChevronDown, Globe, Menu, User, X, Landmark, ExternalLink } from 'lucide-react';
+import { ChevronDown, Globe, Menu, User, X, Landmark } from 'lucide-react';
 import { LANGUAGES } from '../i18n';
 import type { Language, Translation } from '../types';
 

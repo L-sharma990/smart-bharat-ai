@@ -112,7 +112,7 @@ export default function Hero({ t }: Props) {
           className="mx-auto mt-16 grid max-w-4xl grid-cols-1 gap-5 sm:grid-cols-3 animate-fade-in-up"
           style={{ animationDelay: '500ms' }}
         >
-          {stats.map((s, index) => (
+          {stats.map((s) => (
             <div
               key={s.label}
               className={`group rounded-2xl border p-6 text-center backdrop-blur-md shadow-sm transition-all duration-300 hover:shadow-md hover:bg-white hover:-translate-y-1 ${s.color}`}
